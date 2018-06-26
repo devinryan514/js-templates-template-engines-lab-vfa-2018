@@ -5,8 +5,13 @@
   </head>
   <body>
     <main>
+<<<<<<< HEAD
      <div id = "posts"></div>
     <!-- <div id = "comments"></div> -->
+=======
+     <div class = "posts"></div>
+     <div class = "comments"></div>
+>>>>>>> e301658d81b3e323fd559ebb99b0e73ae208a942
      <form id = "post-form" onsubmit="createPost();return false;">
         Title: <input type="text" id="post-title"><br>
         Body: <input type="textarea" id="post-body"><br>
@@ -38,22 +43,40 @@
       <p class = "body-text"><%- body %></p>
       </div>
       <footer><h3 class = "author"><%- author %></h3></footer>
+<<<<<<< HEAD
       <form onsubmit="postComment();return false;">
         Name: <input type="text" id="name"><br>
         Comment: <input type="textarea" id="text"><br>
       <input type="submit" value = "Submit">
       </form>
+=======
+>>>>>>> e301658d81b3e323fd559ebb99b0e73ae208a942
     </article>
     </script>
     
     
     <script id = "comments-template" type = "text/x-lodash-template">
+<<<<<<< HEAD
+=======
+      <form onsubmit="postComment();return false;">
+        Name: <input type="text" id="commenterName"><br>
+        Comment: <input type="textarea" id="commentText"><br>
+      <input type="submit">
+      </form>
+>>>>>>> e301658d81b3e323fd559ebb99b0e73ae208a942
      <div id="comments"></div>
     </script>
     
     
     <script id = "comment-template" type = "text/x-lodash-template">
+<<<<<<< HEAD
     <div id = "single-comment"><%- comment %></div>
     <div class = "footer"><p>Posted by: <%- commenter %></div>
+=======
+    <div id = "single-comment">
+    </div>
+    <div class = "footer">
+    </div>
+>>>>>>> e301658d81b3e323fd559ebb99b0e73ae208a942
     </script>
 </html>

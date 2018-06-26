@@ -1,6 +1,11 @@
 function postComment() {
+<<<<<<< HEAD
   var commenter = document.getElementById("name").value;
   var comment = document.getElementById("text").value;
+=======
+  var commenter = document.getElementById("commenterName").value;
+  var comment = document.getElementById("commentText").value;
+>>>>>>> e301658d81b3e323fd559ebb99b0e73ae208a942
  
   var commentTemplate = document.getElementById("comment-template").innerHTML;
  
